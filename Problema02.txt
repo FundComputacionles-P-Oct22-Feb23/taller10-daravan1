@@ -1,0 +1,38 @@
+1-Inicio
+2-funcion principal()
+3-	nota1, d [0, n]
+4-	nota2, d [0, n]
+5-	nota3, d [0, n]
+6-	nota4,  d [0, n]
+7-	cualitativo, x(30) [{A-Z},{a-z},{BS}] <-- ""
+8-	Escribir "Ingrese la primera nota"
+9-	Leer nota1
+10-	Escribir "Ingrese la segunda nota"
+11-	Leer nota2
+12-	Escribir "Ingrese la tercera nota"
+13-	Leer nota3
+14-	Escribir " Ingrese la cuarta nota"
+15-	Leer nota4
+16-	resultado<--obtenerPromedio(nota1, nota2, nota3, nota4)
+17-	Si 0 >= resultado and resultado <= 5 entonces
+18-		cualitativo<-- "Regular"
+19-	FinSi
+20-	Si 5.1 >= resultado and resultado <= 8 entonces
+21-		cualitativo <-- "Bueno"
+22-	FinSi
+23-	Si 8.1 >= resultado and resultado <= 9 entonces
+24-		cualitativo <-- "Muy Bueno"
+25-	FinSi
+26-	Si 9.1 >= resultado and resultado <= 10 entonces
+27-		cualitativo <-- "Sobresaliente"
+28-	FinSi
+29-	Escribir " El promedio de las notas: " + nota1 + ", " + nota2 + ", "
+30-	+ nota3 + ", " + nota4 + " es " + cualitativo
+31-	funcion obtenerPromedio(a, b, c, d)
+32-		suma, d [0,n]
+33-		suma <-- a + b + c + d
+34-		promedio [0, n]
+35-		promedio <-- suma/4
+36-		retorna promedio
+37-	Fin funcion obtenerPromedio
+38-Fin

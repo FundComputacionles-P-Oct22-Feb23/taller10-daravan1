@@ -1,0 +1,48 @@
+1-Inicio
+2-funcion principal ()
+3-	opcion, i[1,3]
+4-	lado, d[0,n]
+5-	base, d [0,n]
+6-	altura, d [0,n]
+7-	resultado, d [0,n]
+8-	Escribir "Ingrese 1 para area de un cuadrado, 2 para el area de un triangulo,"
+9-	+ " 3 para el area de un rectangulo:"
+10-	Leer opcion
+11-	Si opcion == 1 entonces
+12-		Escribir "Ingrese el valor del lado:"
+13-		Leer lado
+14-		resultado <--obtenerAreaCuadrado(lado)
+15-		Escribir "El area del cuadrado es: " + resultado
+16-	 De lo contrario
+17-		Si opcion == 2 entonces
+18-			Escribir "Ingrese el valor de la base:"
+19-			Leer base
+20-			Escribir "Ingrese el valor de la altura:"
+21-			Leer altura
+22-			resultado<--obtenerAreaTriangulo(base, altura)
+23-			Escribir "El area del triangulo es " + resultado
+24-		De lo contrario
+25-			Escribir "Ingrese el valor de la base:"
+26-			Leer base
+27-			Escribir "Ingrese el valor de la altura:"
+28-			Leer altura
+29-			resultado<--obtenerAreaRectangulo
+30-			Escribir "El area del rectangulo es " + resuldato
+31-		FinSi
+32-	FinSi
+33-	funcion obtenerAreaCuadrado(l)
+34-		area, d [0,n]
+35-		area<-- (l * l * l)
+36-		retorna area
+37-	Fin funcion obtenerAreaCuadrado
+38-	funcion obtenerAreaTriangulo(b, a)
+39-		area, d [0,n]
+40-		area<-- (b * a)/2
+41-		retorna area
+42-	Fin funcion obtenerAreaTriangulo
+43-	funcion obtenerAreaRectangulo
+44-		area, d [0,n]
+45-		area<-- b * a
+46-		retorna area
+47-	Fin funcion obtenerAreaRectangulo
+48-Fin
